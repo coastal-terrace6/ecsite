@@ -49,7 +49,6 @@ public class IndexController {
 		return "index";
 	}
 	
-	//lesson6 スライド14
 	@ResponseBody
 	@RequestMapping("/api/login")
 	public String loginApi(@RequestBody LoginForm form) {
